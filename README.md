@@ -11,7 +11,7 @@ For example, assume your vim files are in your home directory as `~/.vim`, and y
 First, ensure you have a package directory:
 
 ```bash
-mkdir --p ~/.vim/pack
+mkdir -p ~/.vim/pack
 ```
 
 Next, install the package files into this directory by either directly cloning this repo or creating a [git submodule](https://git-scm.com/docs/git-submodule).
